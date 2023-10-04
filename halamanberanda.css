@@ -1,0 +1,374 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: #8FCACA;
+    padding: 6px 50px;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 20px;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-style: bold;
+}
+
+.hero-section {
+
+    object-fit: cover;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* PENGIRIMAN DAN PENGECEKAN BARANG */
+
+.box-sizing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+/* TRACKING BARANG */
+.tracking {
+    background-color: #8FCACA;
+    /* margin-left: 10%; */
+    width: 300px;
+    height: 130px;
+    margin: 10px;
+}
+
+.tracking p {
+    padding-top: 10px;
+    font-size: 10px;
+    margin-left: 15px;
+}
+
+.tracking1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: max-content;
+    border-radius: 5px;
+    /* outline: 1px solid red; */
+}
+
+.tracking1 input {
+    margin-left: 10px;
+    border: 1px solid #555;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 100%;
+}
+
+.tracking h1 {
+    font-size: 20px;
+    font-style: bold;
+    color: #FFFFFF;
+    margin-left: 10%;
+    padding: 5px;
+}
+
+.tracking button {
+    background-color: #69DC57;
+    color: #000000;
+    border: none;
+    border: 1px solid #555;
+    cursor: pointer;
+    font-style: bold;
+    margin-left: 15px;
+    padding: px 20px;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+}
+/* END TRACKIRNG BARANG */
+
+
+/* TARIF KIRIM */
+.tarif {
+    background-color: #CCE2CB;
+    width: 430px;
+    height: 130px;
+    padding: 5px 20px;
+    margin: 10px;
+
+}
+
+.tarif h1 {
+    font-size: 20px;
+    font-style: bold;
+    color: #000000;
+    margin-left: 10%;
+    padding: 5px;
+}
+
+.tarif1 {
+    display: flex;
+    justify-content: space-evenly;
+    /* outline: 1px solid red; */
+    width: 100%;
+    height: max-content;
+}
+
+.tarif2 {
+    width: max-content;
+    /* outline:1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.tarif p {
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.row {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row p {
+    align-items: center;
+    /* background-color: white; */
+    font-size: 10px;
+    font-style: italic;
+    width: 100%;
+    margin-right: 5px;
+    padding-top: 10px;
+}
+
+#origin {
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #555;
+}
+
+#destination {
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #555;
+}
+
+#weight {
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #555;
+}
+
+.tarif button {
+    background-color: #69DC57;
+    color: #000000;
+    border: none;
+    border: 1px solid #555;
+    cursor: pointer;
+    font-style: bold;
+    margin-left: 5px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+}
+
+/* END TARIF KIRIM */
+
+#output-box1 {
+    display: inline-block;
+    width: 48%; 
+    height: 200px; 
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+    margin: 10px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+#output-box2 {
+    display: inline-block;
+    width: 48%; 
+    height: 200px; 
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+    margin: 10px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+@media only screen and (max-width:768px) {
+    .box-sizing {
+        flex-direction: column;
+    }
+}
+/* END PENGIRIMAN DAN PENGECEKAN BARANG */
+
+
+
+/* FEATURES */
+.feature {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.feature h1 {
+    font-size: 30px;
+    font-style: bold;
+    color: #000000;
+    margin-left: 50%;
+    padding-top: 20px;
+}
+
+.features {
+    background-color: #8BC6C6;
+    width: 100%;
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.msi img {
+    width: 70px;
+    margin-left: 30vh;
+    padding: 10px;
+    flex-direction: row;
+}
+
+.msi p {
+    margin-left: 20vh;
+    font-size: 15px;
+}
+
+.rtts img {
+    width: 70px;
+    margin-left: 56vh;
+    padding: 10px;
+    flex-direction: row;
+}
+
+.rtts p {
+    margin-left: 45vh;
+    font-size: 100%;
+}
+
+.cs img {
+    width: 70px;
+    margin-left: 40vh;
+    padding: 10px;
+    padding-bottom: 10px;
+    flex-direction: row;
+}
+
+.cs p {
+    margin-left: 30vh;
+    font-size: 100%;
+}
+
+@media only screen and (max-width:768px) {
+    .feature {
+        flex-direction: column;
+    }
+}
+
+
+/* END FEATURES */
+
+
+/* BERITA */
+.berita {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.berita h1 {
+    font-size: 30px;
+    font-style: bold;
+    color: #000000;
+    margin-left: 50%;
+    padding-top: 20px;
+}
+
+.brt1 {
+    display: flex;
+}
+
+.brt1 img {
+    width: 220px;
+    margin-left: 70px;
+    padding-top: 10px;
+}
+
+.brt1 p {
+    font-size: 70%;
+    margin-left: 100px;
+}
+
+.brt1 h2 {
+    font-size: 100%;
+    margin-left: 100px;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width:768px) {
+    .berita {
+        flex-direction: column;
+    }
+}
+/* END BERITA */
+
+
+/* FOOTER */
+.footer {
+    background-color: #8FCACA;
+    width: 100%; 
+    clear: both; 
+    padding: 15px 0;
+}
+
+/* END FOOTER */
+

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HALAMAN BERANDA</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="halamanberanda.css">
+</head>
+
+<body>
+    <!-- NAV BAR -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+        <ul class="menu">
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Layanan</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero-section">
+        <div class="hero-image">
+            <img src="img/beranda.jpg" alt="Beranda" class="src" width="100%" height="450px">
+        </div>
+        </section>
+
+        <!-- PENGIRIMAN DAN PENGECEKAN BARANG -->
+        <div class="box-sizing">
+            <!----- TRACKING BARANG--->
+            <div class="tracking">
+                <h1>LACAK KIRIMAN</h1>
+                <div class="tracking1">
+                    <form id="lacakForm">
+                        <label for="lacak kiriman"></label>
+                        <input type="text" id="nomor-resi" placeholder="Masukkan Nomor Resi">
+                        <button class="btn click" name="tracking" type="submit"> TRACKING </button>
+                    </form>
+                    <script src="halamanberanda.js"></script>
+                </div>
+                <p> Then Click "TRACKING" Available up to 20 Airwaybill</p>
+            </div>
+            <!-- END TRACKING BARANG -->
+
+            <!-- TARIF KIRIM -->
+            <div class="tarif">
+                <h1>TARIF KIRIMAN</h1>
+                <from id="tarifFrom">
+                    <div class="tarif1">
+                        <div class="row">
+                            <div class="tarif2">
+                                <label for="origin"></label>
+                                <input type="text" id="origin" placeholder="" required>
+                            </div>
+                            <p>Origin Shipment</p>
+                        </div>
+                        <div class="row">
+                            <div class="tarif2">
+                                <label for="destination"></label>
+                                <input type="text" id="destination" placeholder="" required>
+                            </div>
+                            <p>Destination Shipment</p>
+                        </div>
+                        <div class="row">
+                            <div class="tarif2">
+                                <label for="weight"></label>
+                                <input type="number" id="weight" placeholder="" required>
+                            </div>
+                            <p>Weight(kg)</p>
+                        </div>
+                        <button class="btn check" name="check-tarif"> CHECK </button>
+                    </div>
+                </from>
+            </div>
+            <!-- END TRAIF KIRIM -->
+        </div>
+        <!-- END PENGIRIMAN DAN PENGECEKAN BARANG -->
+        
+        <div id="output-box1">
+        </div>
+        <div id="output-box2">
+        </div>
+        <!-- FEATURES -->
+        <div class="feature">
+            <h1>FEATURES</h1>
+            <div class="features">
+                <div class="msi">
+                    <img src="img/msi.png" alt="" class="src">
+                    <p>Menjangkau Seluruh Indonesia</p>
+                </div>
+                <div class="rtts">
+                    <img src="img/rtts.png" alt="" class="src">
+                    <p>Real Time Tracking System</p>
+                </div>
+                <div class="cs">
+                    <img src="img/cs.png" alt="" class="src">
+                    <p>24 Jam Customer Service</p>
+                </div>
+            </div>
+        </div>
+        <!-- END FEAUTERS -->
+
+        <!-- BERITA -->
+        <div class="berita">
+            <h1>BERITA</h1>
+            <div class="berita1">
+                <div class="brt1">
+                    <div>
+                        <h2>J-20 Express Raih Penghargaan Shipping Terbaik seIndonesia </h2>
+                        <p>September 2023 –J-20 Express mendapatkan penghargaan CSR Brand Equity Award 2023 dalam
+                            kategori
+                            Courier Service Sector Industry.</p>
+                        <p>Acara diselenggaran oleh The Iconomics yang sangat mendukung berbagai inovasi dan
+                            terobosan –
+                            terobosan yang dilakukan oleh perusahaan</p>
+                        <p>Indonesia yang berhasil membangun citra kegiatan CSR yang kuat.</p>
+                    </div>
+                    <img src="img/brt1.png" alt="">
+                </div>
+
+                <div class="brt1">
+                    <div>
+                        <h2>J-20 Express Raih Penghargaan Shipping Terbaik seIndonesia </h2>
+                        <p>September 2023 –J-20 Express mendapatkan penghargaan CSR Brand Equity Award 2023 dalam
+                            kategori
+                            Courier Service Sector Industry.</p>
+                        <p>Acara diselenggaran oleh The Iconomics yang sangat mendukung berbagai inovasi dan
+                            terobosan –
+                            terobosan yang dilakukan oleh perusahaan</p>
+                        <p>Indonesia yang berhasil membangun citra kegiatan CSR yang kuat.</p>
+                    </div>
+                    <img src="img/brt2.png" alt="">
+                </div>
+
+                <div class="brt1">
+                    <div>
+                        <h2>J-20 Express Raih Penghargaan Shipping Terbaik seIndonesia </h2>
+                        <p>September 2023 –J-20 Express mendapatkan penghargaan CSR Brand Equity Award 2023 dalam
+                            kategori
+                            Courier Service Sector Industry.</p>
+                        <p>Acara diselenggaran oleh The Iconomics yang sangat mendukung berbagai inovasi dan
+                            terobosan –
+                            terobosan yang dilakukan oleh perusahaan</p>
+                        <p>Indonesia yang berhasil membangun citra kegiatan CSR yang kuat.</p>
+                    </div>
+                    <img src="img/brt3.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- END BERITA -->
+
+        <br>
+        <!-- FOOTER -->
+        <div class="footer">
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo">
+                <h3>PT.BUZZ Ekurir</h3>
+                <p>Jl. Tomang Raya No. 10
+                <p>Jakarta Barat 11440
+                <p>Indonesia</br>
+                    <br> Contact center. (62-21) 2930 3132</br>
+                <p>Office. (62-21) 566 5152
+                <p>Fax. (62-21) 967 1413
+                <p>Email. customercare@j-20.co.id</p>
+            </div>
+            </footer>
+        </div>
+        <!-- END FOOTER -->
+    </div>
+    <script src="halamanberanda.js"></script>
+</body>
+
+</html>
